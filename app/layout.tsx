@@ -14,7 +14,7 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'ATG'
+const title = 'ATOLOG'
 const description =
   'AI-powered answer engine with a generative UI.'
 
