@@ -14,7 +14,7 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'PATOOWORLD'
+const title = 'Patooworld Search Engine'
 const description =
   'AI-powered Search Based on Choice.'
 
