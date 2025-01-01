@@ -14,12 +14,12 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'ATOLOG'
+const title = 'PATOOWORLD'
 const description =
-  'AI-powered answer engine with a generative UI.'
+  'AI-powered Search Based on Choice.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://morphic.sh'),
+  metadataBase: new URL('https://patooworld.com'),
   title,
   description,
   openGraph: {
