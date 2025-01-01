@@ -1,0 +1,88 @@
+nav {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555; /* Medium gray text */
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #007bff; /* Blue on hover */
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.signup-btn, .login-btn {
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.signup-btn {
+    background-color: #28a745; /* Green for signup */
+    color: white;
+}
+
+.signup-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.login-btn {
+    background-color: #007bff; /* Blue for login */
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links, .auth-buttons {
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .nav-links a {
+        padding: 5px 0;
+    }
+    .auth-buttons button {
+        width: 100%;
+    }
+}
