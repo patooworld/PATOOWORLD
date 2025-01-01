@@ -1,14 +1,8 @@
-# Morphic
+# PATOOWORLD
 
-An AI-powered search engine with a generative UI.
-
-> [!CAUTION]
-> Morphic is built with Vercel AI SDK RSC. AI SDK RSC is [experimental](https://sdk.vercel.ai/docs/getting-started/navigating-the-library#when-to-use-ai-sdk-rsc) and has some limitations. When using it in production, it is recommended to [migrate](https://sdk.vercel.ai/docs/ai-sdk-rsc/migrating-to-ui) to SDK UI.
+AI-Powered Search Engine.
 
 ![capture](/public/capture-240404_blk.png)
-
-> [!NOTE]
-> Please note that there are differences between this repository and the official website [morphic.sh](https://morphic.sh). The official website is a fork of this repository with additional features such as authentication, which are necessary for providing the service online. The core source code of Morphic resides in this repository, and it's designed to be easily built and deployed.
 
 ## 🗂️ Overview
 
@@ -148,16 +142,16 @@ Host your own live version of Morphic with Vercel or Cloudflare Pages.
 
 ### Setting up the Search Engine in Your Browser
 
-If you want to use Morphic as a search engine in your browser, follow these steps:
+If you want to use PATOOWORLD as a search engine in your browser, follow these steps:
 
 1. Open your browser settings.
 2. Navigate to the search engine settings section.
 3. Select "Manage search engines and site search".
 4. Under "Site search", click on "Add".
 5. Fill in the fields as follows:
-   - **Search engine**: Morphic
+   - **Search engine**: PATOOWORLD
    - **Shortcut**: morphic
-   - **URL with %s in place of query**: `https://morphic.sh/search?q=%s`
+   - **URL with %s in place of query**: `https://patooworld.com/search?q=%s`
 6. Click "Add" to save the new search engine.
 7. Find "Morphic" in the list of site search, click on the three dots next to it, and select "Make default".
 
