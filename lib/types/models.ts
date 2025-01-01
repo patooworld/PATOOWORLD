@@ -18,10 +18,4 @@ export const models: Model[] = [
     provider: 'Google Generative AI',
     providerId: 'google'
   },
-  {
-    id: 'llama3-groq-8b-8192-tool-use-preview',
-    name: 'LLama 3 Groq 8B Tool Use',
-    provider: 'Groq',
-    providerId: 'groq'
-  },
 ]
