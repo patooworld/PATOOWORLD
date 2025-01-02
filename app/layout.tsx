@@ -14,7 +14,7 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'Patooworld Search Engine'
+const title = 'Patooworld AI-Powered Search Engine'
 const description =
   'AI-powered Search Based on Choice.'
 
@@ -56,8 +56,23 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <AppStateProvider>
-            <Header />
-            {children}
+            <head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<nav>
+    <div class="nav-container">
+        <a href="#" class="logo">PATOOWORLD</a>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="auth-buttons">
+            <button class="signup-btn">Sign Up</button>
+            <button class="login-btn">Log In</button>
+        </div>
+    </div>
+</nav>{children}
             <Sidebar />
             <Footer />
             <Toaster />
