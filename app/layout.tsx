@@ -14,9 +14,9 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'Patooworld AI-Powered Search Engine'
+const title = 'PATOOWORLD'
 const description =
-  'AI-powered Search Based on Choice.'
+  'AI-powered Search Engine Based on Choice.'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://patooworld.com'),
@@ -56,7 +56,8 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <AppStateProvider>
-             <head />
+            <Header />
+            {children}
             <Sidebar />
             <Footer />
             <Toaster />
