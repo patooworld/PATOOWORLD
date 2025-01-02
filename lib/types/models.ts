@@ -20,7 +20,7 @@ export const models: Model[] = [
   },
   {
     id: 'llama3-groq-8b-8192-tool-use-preview',
-    name: 'X Space',
+    name: 'Space',
     provider: 'Groq',
     providerId: 'groq'
   },
