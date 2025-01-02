@@ -14,13 +14,13 @@ export const models: Model[] = [
   },
   {
     id: 'gemini-2.0-flash-exp',
-    name: 'Gemini 2.0 Flash',
+    name: 'Gemini',
     provider: 'Google Generative AI',
     providerId: 'google'
   },
   {
     id: 'llama3-groq-8b-8192-tool-use-preview',
-    name: 'LLama 3 Groq 8B Tool Use',
+    name: 'X-AI',
     provider: 'Groq',
     providerId: 'groq'
   },
