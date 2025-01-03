@@ -8,6 +8,9 @@ import Footer from '@/components/footer'
 import { Sidebar } from '@/components/sidebar'
 import { Toaster } from '@/components/ui/sonner'
 import { AppStateProvider } from '@/lib/utils/app-state'
+import { AuthProvider } from '@/components/auth-provider' // Import AuthProvider
+import { useRouter } from 'next/navigation'; // Import useRouter
+import { useEffect } from 'react';
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -46,6 +49,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+    const router = useRouter();
+
+    useEffect(() => {
+        // Check if the current route is the landing page
+        const isLandingPage = router.pathname === '/';
+
+        // If it's the landing page, redirect to /home
+        if (isLandingPage) {
+            router.push('/home');
+        }
+    }, [router]);
+
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn('font-sans antialiased', fontSans.variable)}>
@@ -56,11 +71,15 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <AppStateProvider>
-            <Header />
-            {children}
-            <Sidebar />
-            <Footer />
-            <Toaster />
+            <AuthProvider> {/* Wrap with AuthProvider */}
+              <Header />
+              <main className="flex-1">
+                {children}
+              </main>
+              <Sidebar />
+              <Footer />
+              <Toaster />
+            </AuthProvider>
           </AppStateProvider>
         </ThemeProvider>
       </body>
