@@ -14,8 +14,8 @@ export const models: Model[] = [
   },
   {
     id: 'llama3-groq-8b-8192-tool-use-preview',
-    name: 'XAI',
-    provider: 'Groq',
+    name: 'ATG',
+    provider: 'XAI',
     providerId: 'groq'
   },
 ]
