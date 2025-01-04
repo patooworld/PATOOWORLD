@@ -20,7 +20,7 @@ export const models: Model[] = [
   },
   {
     id: 'gemini-1.5-pro-002',
-    name: '99pace',
+    name: 'Gemini 99pace',
     provider: 'Google Generative AI',
     providerId: 'google'
   },
