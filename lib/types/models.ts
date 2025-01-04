@@ -18,10 +18,4 @@ export const models: Model[] = [
     provider: 'Groq',
     providerId: 'groq'
   },
-  {
-    id: 'gemini-1.5-pro-002',
-    name: 'Gemini 99pace',
-    provider: 'Google Generative AI',
-    providerId: 'google'
-  },
 ]
