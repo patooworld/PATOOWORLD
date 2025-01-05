@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title,
     description,
     card: 'summary_large_image',
-    creator: '@miiura'
+    creator: '@patooworld'
   }
 }
 
