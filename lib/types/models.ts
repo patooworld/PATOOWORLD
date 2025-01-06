@@ -12,4 +12,10 @@ export const models: Model[] = [
     provider: 'PATOOWORLD',
     providerId: 'google'
   },
+  {
+    id: 'llama3-groq-8b-8192-tool-use-preview',
+    name: 'LLama x Groq',
+    provider: 'Groq',
+    providerId: 'groq'
+  },
 ]
