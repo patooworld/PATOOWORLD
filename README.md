@@ -2,7 +2,8 @@
 
 AI-Powered Search Engine.
 
-![capture](/public/capture-240404_blk.png)
+![image](https://github.com/user-attachments/assets/8b23ff0b-f64e-42e8-8e65-d19a339b6e69)
+
 
 ## 🗂️ Overview
 
