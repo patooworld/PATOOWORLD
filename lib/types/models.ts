@@ -9,7 +9,7 @@ export const models: Model[] = [
   {
     id: 'gemini-2.0-flash-exp',
     name: 'PATOOWORLD',
-    provider: ',',
+    provider: 'Gemini Flash',
     providerId: 'google'
   },
 ]
