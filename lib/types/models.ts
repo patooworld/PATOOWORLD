@@ -18,4 +18,10 @@ export const models: Model[] = [
     provider: ',',
     providerId: 'groq'
   },
+  {
+    id: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'undefined',
+    name: process.env.NEXT_PUBLIC_AZURE_DEPLOYMENT_NAME || 'Undefined',
+    provider: 'Azure',
+    providerId: 'azure'
+  },
 ]
