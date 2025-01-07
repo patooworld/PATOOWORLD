@@ -12,10 +12,4 @@ export const models: Model[] = [
     provider: ',',
     providerId: 'google'
   },
-  {
-    id: 'llama3-groq-8b-8192-tool-use-preview',
-    name: '99PACE',
-    provider: ',',
-    providerId: 'groq'
-  },
 ]
