@@ -20,7 +20,7 @@ const description =
 'Unified GenAI For all purpose based on choice and for good.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.patooworld.com'),
+  metadataBase: new URL('https://patooworld.com'),
   title,
   description,
   openGraph: {
