@@ -14,7 +14,7 @@ export const models: Model[] = [
   },
 {
   id: 'gemini-1.5-pro-002',
-  name: '99PACE',
+  name: 'ELEVATION',
   provider: '',
   providerId: 'google'
   },
