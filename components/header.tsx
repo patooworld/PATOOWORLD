@@ -1,22 +1,22 @@
-export default Header
-
 import React from 'react'
+import { ModeToggle } from './mode-toggle'
+import { IconLogo } from './ui/icons'
 import { cn } from '@/lib/utils'
+import HistoryContainer from './history-container'
 
-const IconLogo: React.FC<{ className?: string }> = ({ className }) => {
+export const Header: React.FC = async () => {
   return (
-    <svg
-      className={cn('w-8 h-8', className)}
-      viewBox="0 0 24 24"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M12 2L14.09 8.26H21L15.45 12.74L17.54 19L12 14.52L6.46 19L8.55 12.74L3 8.26H9.91L12 2Z"
-        fill="currentColor"
-      />
-    </svg>
+    <header className="fixed w-full p-1 md:p-2 flex justify-between items-center z-10 backdrop-blur md:backdrop-blur-none bg-background/80 md:bg-transparent">
+      <div>
+        <a href="/">
+          <IconLogo className={cn('w-5 h-5')} />
+          <span className="sr-only">Morphic</span>
+        </a>
+      </div>
+      <div className="flex gap-0.5">
+        <ModeToggle />
+        <HistoryContainer location="header" />
+      </div>
+    </header>
   )
 }
-
-export default IconLogo
