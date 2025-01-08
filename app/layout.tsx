@@ -15,10 +15,11 @@ const fontSans = FontSans({
 })
 
 const title = 'PATOOWORLD'
-const description = 'AI-powered Search Engine Based on Choice', 
+const description =
+  'Unified GEN AI For all purpose, choice and for good.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://patooworld.com'),
+  metadataBase: new URL('https://morphic.sh'),
   title,
   description,
   openGraph: {
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
     title,
     description,
     card: 'summary_large_image',
-    creator: '@patooworld'
+    creator: '@miiura'
   }
 }
 
