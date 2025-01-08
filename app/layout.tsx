@@ -16,10 +16,11 @@ const fontSans = FontSans({
 
 const title = 'PATOOWORLD'
 const description =
-  'Unified GEN AI For all purpose, choice and for good.'
+  'AI Search Engine, keywords and Research efficiency and with Speed of light.' 
+'Unified GenAI For all purpose based on choice and for good.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://morphic.sh'),
+  metadataBase: new URL('https://www.patooworld.com'),
   title,
   description,
   openGraph: {
