@@ -3,8 +3,8 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'gemini is a large language model created by google',
-    message: 'gemini is a large language model created by google'
+    heading: 'How do you assist users?',
+    message: 'How do you assist users?'
   },
   {
     heading: 'Why is Nvidia growing rapidly?',
