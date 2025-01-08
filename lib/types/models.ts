@@ -12,4 +12,10 @@ export const models: Model[] = [
     provider: 'Gemini Flash',
     providerId: 'google'
   },
+{
+  id: 'gemini-1.5-pro-002',
+  name: '99PACE',
+  provider: 'Gemini pro',
+  providerId: 'google'
+  },
 ]
