@@ -16,7 +16,7 @@ const fontSans = FontSans({
 
 const title = 'PATOOWORLD'
 const description =
-  'Unified GEN AI For all purpose, choice and for good.'
+  'GenAI-Powered Search Optimization Based on Choice.'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.patooworld.com),
