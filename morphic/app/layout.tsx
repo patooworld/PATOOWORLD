@@ -16,7 +16,7 @@ const fontSans = FontSans({
 
 const title = 'morphhic'
 const description =
-  'AI-powered Search Based on Choice.'
+  'morphic-ai-answer-engine-generative-ui.'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://morphic.sh'),
