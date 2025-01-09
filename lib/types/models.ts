@@ -8,13 +8,13 @@ export interface Model {
 export const models: Model[] = [
   {
     id: 'gemini-2.0-flash-exp',
-    name: 'PATOOWORLD',
+    name: 'PATOOWORLD-SEO',
     provider: '',
     providerId: 'google'
   },
 {
   id: 'gemini-1.5-pro-002',
-  name: 'ELEVATION',
+  name: '99PACE',
   provider: '',
   providerId: 'google'
   },
