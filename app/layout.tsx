@@ -14,12 +14,12 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'PATOOWORLD'
+const title = 'Patooworld'
 const description =
-  'GenAI-Powered Search Optimization Based on Choice.'
+  'AI-Powered Search Based on Choice.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.patooworld.com),
+  metadataBase: new URL('https://patooworld.com'),
   title,
   description,
   openGraph: {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title,
     description,
     card: 'summary_large_image',
-    creator: '@miiura'
+    creator: '@patooworld'
   }
 }
 
