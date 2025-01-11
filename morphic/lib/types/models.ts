@@ -55,8 +55,8 @@ export const models: Model[] = [
     providerId: 'azure'
   },
   {
-    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'undefined',
-    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'Undefined',
+    id: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'gemini-1.5-pro-002',
+    name: process.env.NEXT_PUBLIC_OPENAI_COMPATIBLE_MODEL || 'PATOOWORLD',
     provider: 'OpenAI Compatible',
     providerId: 'openai-compatible'
   }
