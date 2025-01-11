@@ -6,10 +6,22 @@ export interface Model {
 }
 
 export const models: Model[] = [
+{
+    id: 'gemini-1.5-pro-002',
+    name: 'Gemini 1.5 Pro',
+    provider: 'Google Generative AI',
+    providerId: 'google'
+  },
   {
-  id: 'gemini-1.5-pro-002',
-  name: 'PATOOWORLD',
-  provider: 'Google Generative AI',
-  providerId: 'google'
+    id: 'gemini-2.0-flash-exp',
+    name: 'Gemini 2.0 Flash',
+    provider: 'Google Generative AI',
+    providerId: 'google'
+  },
+  {
+    id: 'llama3-groq-8b-8192-tool-use-preview',
+    name: 'LLama groq',
+    provider: 'Groq',
+    providerId: 'groq'
   },
 ]
