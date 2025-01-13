@@ -14,12 +14,13 @@ const fontSans = FontSans({
   variable: '--font-sans'
 })
 
-const title = 'Patooworld'
+const title = 'PATOOWORLD'
 const description =
-  'AI Search Engine, keywords and Research efficiency with Speed of light.'
+'Your Choice, We Adore. AI-Powerd Answer engine Research with Speed of light.'
+    'ENHANCED by Gemini.'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://patooworld.com'),
+  metadataBase: new URL('https://www.patooworld.com'),
   title,
   description,
   openGraph: {
