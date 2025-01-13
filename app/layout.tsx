@@ -16,7 +16,7 @@ const fontSans = FontSans({
 
 const title = 'Patooworld'
 const description =
-  'AI-Powered Search Based on Choice.'
+  'AI Search Engine, keywords and Research efficiency with Speed of light.'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://patooworld.com'),
