@@ -1,5 +1,5 @@
 
-FROM oven/bun:1.1.3-alpine
+FROM oven/bun:1.1.45-alpine
 
 RUN apk add --no-cache nodejs npm git
 
